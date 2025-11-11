@@ -155,10 +155,10 @@ main {
 }
 
 .project-image {
-    max-width: 100%;
+    max-width: 35%;
     position: relative;
     border-radius: 10px;
-    width: 50%;
+    width: 35%;
 }
 
 .project-image::before {
@@ -249,9 +249,14 @@ main {
         flex-direction: column;
     }
 
-    .project-info,
+    .project-info {
+        width: 100%;
+        order: 2;
+    }
+
     .project-image {
         width: 100%;
+        order: 1;
     }
 
     .skills-grid {
